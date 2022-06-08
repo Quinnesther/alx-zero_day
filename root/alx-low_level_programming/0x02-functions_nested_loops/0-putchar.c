@@ -1,19 +1,27 @@
 #include "main.h"
 /**
- * main - print the word "main"
+*main - print out the characters
+* 
+ * Description: return the required results
  *
- * Return: Always 0 (Success)
+ * Return: return integer value 0
+ *
  */
 int main(void)
 {
-int i;
-char p[] = "main";
+	int n = 0;
+	char name[8] ="_putchar";
+	
+	while (n < 8)
+	{
+		_putchar(name[8]);
 
-for (i = 0; i < 8; i++)
-{
-_putchar(p[i]);
-}
+		while (n < 8)
+		{
+			_putchar(name[8]);
+			n++
+		}
+		_putchar('\n');
+		return (0)
+	}
 
-_putchar('\n');
-return (0);
-}
