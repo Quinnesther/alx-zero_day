@@ -1,27 +1,33 @@
-i
-#include<stdlib.h>
-#include<time.h>
-include < stdio.h >
-
+#include < stdib.h >
+#includwe < time.h >
+/*more headers go here*/
+#include <stdio.h>
+ /*betty style doc for function main goes here*/
 /**
- *main-prints a random number and states whether
- *it is positive,negative,or zero.
-*
-*Return:Always 0.
-*/
-int main < void >
+ *  main -use to check for conditions
+ *
+ *   Description: return the result when the conditions are meet
+ *
+ *   Return: return integer 0
+ *
+ */
+int main(void)
 {
-		int n;
-
-srand(time(0));
-n = rand() - RAND_MAX/2; 
-	/* your code goes there */
-if (n > 0)	
-	printf("%d is positive\n", n);
-else if (n < 0)
-	printf("%d is negative\n", n);
+int n;
+srand (time (0))
+n = rand() - RAND_MAX / 2
+ /* your code goes here*/
+if (n > 0)
+{
+printf("%d is possitive\n", n)
+}
+if (n > 0)
+{
+printf("%d is zero\n", n)
+}
 else
-	printf("%d is zero\n", n);
-
-return (0);
+{
+rintf("%d is negative\n", n)
+}
+return (0)
 }
